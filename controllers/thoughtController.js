@@ -11,7 +11,6 @@ const thoughtController = {
                res.status(500).json(err);
            });
         },
-}
 
   // Get a single thought (by id)
 
@@ -46,7 +45,7 @@ const thoughtController = {
             console.log("An error occurred: ", err);
             res.status(500).json(err);
           });
-      }
+      },
 
     //   Update thouhgt
 
@@ -71,24 +70,22 @@ const thoughtController = {
         Thought.fineOneAndDelete({ _id: req.params.id })
         .then((dbThoughtData) => {
             !dbThoughtData ? res.status(404).json({
-                message: "Thought not found." })
-            : res.status(200).json({ message: "Tought deleted." });
-        });
-    },
+                message: "Thought not found." , })
+            : res.status(200).json({ message: "Thought deleted.", });
+        })
+
     .catch((err)  => {
         console.log("Error: ", err);
         res.status(500).json(err);
     });
-
-
-}
+},
 
  // Create a reaction
 
  createReaction({ params, body }, res) {
     Thought.findOneAndUpdate(
         {_id: params.thoughtId },
-        { $push: { reactions: body }},
+        { $push: { reactions: body } },
         { new: true, runValidators: true }
     )
     .then((dbThoughtData) => {
