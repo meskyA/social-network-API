@@ -1,4 +1,5 @@
 const { Schema, model } = require("mongoose");
+const thoughtSchema = require("./thought");
 
 const userSchema = new Schema(
     {
@@ -12,7 +13,7 @@ const userSchema = new Schema(
             type: String,
             unique: true,
             required: true,
-            match: [ /^([a-z0-9_\.-]+)@[(da-z\.-]+)$/, "Please enter valid email address.", ],
+            match: [ /^([a-z0-9_\.-]+)@[(da-z\.-]+$/, "Please enter valid email address"],
         },
         thought: [{
             type: Schema.Types.ObjectId,
