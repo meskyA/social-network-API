@@ -33,6 +33,6 @@ const thoughtSchema = new Schema(
 thoughtSchema.virtual("ractionsCount").get(function () {
     return this.reactions.length;
 });
-const Thought = model("Thought", thoughtSchema);
+const thought = model("Thought", thoughtSchema);
 
-module.exports = Thought;
+module.exports = thought;

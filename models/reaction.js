@@ -19,7 +19,7 @@ const reactionSchema = new Schema(
         },
         createdAt: {
             type: Date,
-            defaule: Date.now,
+            default: Date.now,
             get: (createdAtVal) => moment(createdAtVal).format("MM DD, YYYY [at] hh:mm a"),
         },
     },
