@@ -65,7 +65,7 @@ updateUser(req, res) {
         res.status(500).json(err);
     });
 },
-// Delete a user and associated thoughts
+// Delete a user and thoughts
 deleteUser(req, res) {
     user.findOneAndDelete({ _id: req.params.userId })
     .then((dbUserData) => {
@@ -89,7 +89,7 @@ deleteUser(req, res) {
 addFriend(req, res) {
     user.findOneAndUpdate( 
         { _id: req.params.userId },
-        { $addToSet: { friends: req.params.friendId }},
+        { $addToSet: { friends: req.body.fiendId }},
         { new: true }
     )
     .then((dbUserData) => {
