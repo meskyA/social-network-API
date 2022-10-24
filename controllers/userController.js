@@ -1,16 +1,17 @@
 const { User, Thought } = require("../models")
 
-const userController = {
+// Get all users
+const userController = {  
     getUsers(req, res) {
-        User.find()
+      User.find()
         .select("-__v")
-        .then((dbUserData ) => {
-            res.json(dbUserData);
+        .then((dbUserData) => {
+          res.json(dbUserData);
         })
         .catch((err) => {
-            console.log(err);
-            res.status(500).json(err); 
-        });    
+          console.log(err);
+          res.status(500).json(err);
+        });
     },
 // Get single user
     getSingleUser(req, res) {
