@@ -76,7 +76,7 @@ deleteUser(req, res) {
         return thought.deleteMany({ _id: { $in: dbUserData.thoughts }});
     })
     .then(() => {
-        res.json({ message: "Thought deleted."});
+        res.json({ message: "User and thought deleted."});
     })
     .catch((err) => {
         console.log(err);
