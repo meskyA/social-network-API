@@ -84,10 +84,10 @@ Please contact the author at:
 
 ## Screen-shots
 
-[Image](Assets/image-demo-2.png)
-[Image](Assets/image-demo-3.png)
-[Image](Assets/image-demo-4.png
-[Image](Assets/image-demo.png)
+- [Image](Assets/image-demo-2.png)
+- [Image](Assets/image-demo-3.png)
+- [Image](Assets/image-demo-4.png)
+- [Image](Assets/image-demo.png)
 
 
 
