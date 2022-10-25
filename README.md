@@ -7,7 +7,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
-- [License](#license
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
@@ -74,7 +74,13 @@ SOFTWARE.
 Please contact the author at:
 
 - email: [mesky@gmail.com]
-- GitHub profile: [meskyA]
+- GitHub profile: [https://github.com/meskyA]
 
-[User-route](https://drive.google.com/file/d/1bGm6aezmlEgQoI-W42BN4TtqRAJLeBcB/view)
+## Walk-through videos 
+- [User-routes](https://drive.google.com/file/d/1bGm6aezmlEgQoI-W42BN4TtqRAJLeBcB/view)
+- [Thought-routes]
+- [Friend-routes]
+- [Reaction-Routes]
+
+
 
