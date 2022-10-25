@@ -37,16 +37,16 @@ This is a back-end application for a Social Netwrok web where users can post tho
 This application can be used to create new user with username and email, add friends, post thoughts and add reactions to the thoughts. It also has features to delete users with their thoughts, update users with thoughts, and delete and/or reactions.
 
 - GET/POST routes
-  http://localhost:3001/api/users 
-  http://localhost:3001/api/thoughts
+  - http://localhost:3001/api/users 
+  - http://localhost:3001/api/thoughts
 
 - PUT/DELETE routes: (update or delete by id)
-  http://localhost:3001/api/users/:id
-  http://localhost:3001/api/thoughts/:id
+  - http://localhost:3001/api/users/:id
+  - http://localhost:3001/api/thoughts/:id
 
 - POST/DELETE route (friends and reactions by id)
-  http://localhost:3001/api/users/:id/friends/:friendId 
-  http://localhost:3001/api/thoughts/:id/reactions 
+  - http://localhost:3001/api/users/:id/friends/:friendId 
+  - http://localhost:3001/api/thoughts/:id/reactions 
 
 ## Contribution
 
@@ -81,6 +81,14 @@ Please contact the author at:
 - [Thought-routes]
 - [Friend-routes]
 - [Reaction-Routes]
+
+## Screen-shots
+
+[Image](Assets/image-demo-2.png)
+[Image](Assets/image-demo-3.png)
+[Image](Assets/image-demo-4.png
+[Image](Assets/image-demo.png)
+
 
 
 
