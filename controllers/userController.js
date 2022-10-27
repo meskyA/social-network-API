@@ -89,7 +89,7 @@ deleteUser(req, res) {
 addFriend(req, res) {
     user.findOneAndUpdate( 
         { _id: req.params.userId },
-        { $addToSet: { friends: req.body.fiendId }},
+        { $addToSet: { friends: req.params.friendId }},
         { new: true }
     )
     .then((dbUserData) => {

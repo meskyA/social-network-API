@@ -79,7 +79,7 @@ Please contact the author at:
 ## Walk-through videos 
 - [User-routes](https://drive.google.com/file/d/1bGm6aezmlEgQoI-W42BN4TtqRAJLeBcB/view)
 - [Thought-routes](https://drive.google.com/file/d/1KKZLiotOFWxFDaB8YDUcqmVLze5pAdoI/view)
-- [Friend-routes]
+- [Friend-routes](https://drive.google.com/file/d/1G8ef3tyml13ZZJNVuQKH1bqZi9j7SLP5/view)
 - [Reaction-Routes](https://drive.google.com/file/d/1qADAhYoa_1NYR-MRWdegT9hynqfuFftn/view)
 
 ## Screen-shots
