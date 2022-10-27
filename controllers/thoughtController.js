@@ -51,7 +51,7 @@ const thoughtController = {
         res.json({ message: "Thought successfully created!" });
       })
       .catch((err) => {
-        console.log("An error occurred: ", err);
+        console.log(err);
         res.status(500).json(err);
       });
   },
